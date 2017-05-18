@@ -18,6 +18,6 @@ public class SoalConditional {
     public static void main(String[] args) {
 
         SoalConditional cekGanjilGenap = new SoalConditional();
-        cekGanjilGenap.ganjilAtoGenap(97);
+        cekGanjilGenap.ganjilAtoGenap(7);
     }
 }
