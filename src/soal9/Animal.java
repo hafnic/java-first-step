@@ -4,9 +4,13 @@ package soal9;
  * Created by hafnic on 5/18/17.
  */
 public class Animal {
+
     String whatsItsName;
     int howOld;
     boolean isAlive;
+
+    public Animal() {
+    }
 
     public Animal(String name, int age, boolean alive)
     {
@@ -25,8 +29,6 @@ public class Animal {
         Animal animal1 = new Animal("Omen",3,true);
 
         animal1.getData();
-
     }
 }
-
 
